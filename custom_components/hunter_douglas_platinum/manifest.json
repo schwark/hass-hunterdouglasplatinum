@@ -1,0 +1,16 @@
+{
+  "domain": "hunterdouglas_platinum",
+  "name": "Detailed Hunter Douglas Platinum Push",
+  "config_flow": false,
+  "documentation": "https://github.com/schwark/hass-hunterdouglasplatinum",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dhcp": [{
+    "hostname": "HD bridge",
+    "macaddress": "000B3C*"
+    }],
+  "dependencies": ["pyhunterdouglasplatinum"],
+  "codeowners": ["@schwark"]
+}
